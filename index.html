@@ -1,0 +1,11 @@
+---
+layout: default
+title: Amusing Infrastructure by Sijis Aviles
+---
+
+<div class="col-lg-6">
+{% for post in site.posts %}
+  <h4><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}</h4>
+  <p>{{ post.excerpt}}</p>
+{% endfor %}
+</div>

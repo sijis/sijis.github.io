@@ -1,0 +1,4 @@
+name: Amusing Infrastructure
+markdown: redcarpet
+pygments: true
+permalink: pretty
