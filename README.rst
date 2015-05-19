@@ -1,4 +1,4 @@
 README
 ----------
 
-My blog. Nothing more, nothing less.
+My [infrequently updated] blog. Nothing more, nothing less.
