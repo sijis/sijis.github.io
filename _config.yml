@@ -1,4 +1,4 @@
 name: Amusing Infrastructure
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
 highlighter: rouge
