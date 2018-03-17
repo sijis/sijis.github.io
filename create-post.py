@@ -2,10 +2,11 @@
 
 __author__ = 'Sijis Aviles'
 
-import sys
-import os
 import datetime
+import os
+import sys
 from optparse import OptionParser
+
 
 def convert_post_title(title):
     """ Returns a cleaned title """
@@ -16,27 +17,16 @@ def convert_post_title(title):
         post_title.append(c)
     return ''.join(post_title)
 
+
 if __name__ == '__main__':
 
-
-    parser = OptionParser(version='%prog 0.1',
-                          description='Creates a basic template for posts')
-    parser.add_option('-s', '--title',
-                      dest='title', metavar='TITLE',
-                      default=None,
-                      help='Title of blog post')
-    parser.add_option('-f', '--format',
-                      dest='file_format', metavar='FORMAT',
-                      default='markdown',
-                      help='Format of blog post')
-    parser.add_option('-l', '--layout',
-                      dest='layout', metavar='LAYOUT',
-                      default='post',
-                      help='Template file should use')
-    parser.add_option('-t', '--tags',
-                      dest='tags', metavar='TAGS',
-                      default='blog',
-                      help='Tags for blog entry')
+    parser = OptionParser(version='%prog 0.1', description='Creates a basic template for posts')
+    parser.add_option('-s', '--title', dest='title', metavar='TITLE', default=None, help='Title of blog post')
+    parser.add_option(
+        '-f', '--format', dest='file_format', metavar='FORMAT', default='markdown', help='Format of blog post')
+    parser.add_option(
+        '-l', '--layout', dest='layout', metavar='LAYOUT', default='post', help='Template file should use')
+    parser.add_option('-t', '--tags', dest='tags', metavar='TAGS', default='blog', help='Tags for blog entry')
 
     (options, args) = parser.parse_args()
     data = vars(options)
@@ -52,9 +42,7 @@ if __name__ == '__main__':
 
     rightnow = datetime.datetime.now()
 
-    file_name = rightnow.strftime('%Y-%m-%d-{0}.{1}'.format(
-                                                    convert_post_title(title),
-                                                    file_format))
+    file_name = rightnow.strftime('%Y-%m-%d-{0}.{1}'.format(convert_post_title(title), file_format))
     file_path = os.path.join('{0}/{1}'.format(os.getcwd(), '_posts'))
     file_full_name = '{0}/{1}'.format(file_path, file_name)
     post_date = rightnow.strftime('%Y-%m-%d %H:%M:%S')
@@ -62,13 +50,8 @@ if __name__ == '__main__':
     post_layout = layout
     post_title = title
 
-    file_data = ('---',
-                'layout: {0}'.format(post_layout),
-                'title: {0}'.format(post_title),
-                'date: {0}'.format(post_date),
-                'categories: {0}'.format(post_categories),
-                '---',
-                '')
+    file_data = ('---', 'layout: {0}'.format(post_layout), 'title: {0}'.format(post_title),
+                 'date: {0}'.format(post_date), 'categories: {0}'.format(post_categories), '---', '')
 
     print file_full_name
 
