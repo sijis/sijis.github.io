@@ -1,4 +1,4 @@
 name: Amusing Infrastructure
 markdown: redcarpet
 permalink: pretty
-highlighter: rogue
+highlighter: rouge
