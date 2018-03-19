@@ -1,0 +1,9 @@
+version: '3'
+services:
+  default:
+    environment:
+      JEKYLL_ENV: production
+    volumes:
+      - ./:/app:rw
+    ports:
+      - "8080:4000"
