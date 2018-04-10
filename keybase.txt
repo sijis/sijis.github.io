@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sijis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sijis.github.io
+  * I am sijis (https://keybase.io/sijis) on keybase.
+  * I have a public key ASCeDXR8DsmWxOvMoeMM2_Zp69bWloD2TJcBtphMahCM-Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209e0d747c0ec996c4ebcca1e30cdbf669ebd6d69680f64c9701b6984c6a108cf80a",
+      "host": "keybase.io",
+      "kid": "01209e0d747c0ec996c4ebcca1e30cdbf669ebd6d69680f64c9701b6984c6a108cf80a",
+      "uid": "6419cfb7566fd262c946f27828981d19",
+      "username": "sijis"
+    },
+    "merkle_root": {
+      "ctime": 1523324703,
+      "hash": "99a8db29d737bd1261f60bc9d12354b24b2bb2093e9b61bd21da8e19febf26173e00e4a0055726c2a874ff205e7258b6e89e95607f91a7671a11ab1ddf265993",
+      "hash_meta": "38ae42ff66b78d166a890d30050077afbecdea03096b499049fd174740711182",
+      "seqno": 2362340
+    },
+    "service": {
+      "entropy": "tDaQx+K1+IfJ33coMTm1CN4b",
+      "hostname": "sijis.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1523324789,
+  "expire_in": 504576000,
+  "prev": "f5f59e42ae0d4fa76260ddcfd0e353ecfea80e0f8b6591bca60b6f796749bed2",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgng10fA7JlsTrzKHjDNv2aevW1paA9kyXAbaYTGoQjPgKp3BheWxvYWTESpcCCsQg9fWeQq4NT6diYN3P0ONT7P6oDg+LZZG8pgtveWdJvtLEIOmFK6vVMt51K15Henz/udTBVR9CGWLVi1TTKABqI/hmAgHCo3NpZ8RAsVW13guBawd9K2D7SiPd5IVSyDwZfhQw2HsDZ1EBl3PtjSbXTO5XY26V2uFBqLSQu8arJl2VYSg9/aLClgE1DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHJAwS/Gq2c/3ykydetFRHtbrw7h5G0ElClKrOMHGuKdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sijis
+
+==================================================================
