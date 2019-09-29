@@ -32,7 +32,7 @@ if __name__ == '__main__':
     data = vars(options)
 
     if not data['title']:
-        print 'Title is required'
+        print('Title is required')
         sys.exit(1)
 
     title = data['title']
@@ -53,7 +53,7 @@ if __name__ == '__main__':
     file_data = ('---', 'layout: {0}'.format(post_layout), 'title: {0}'.format(post_title),
                  'date: {0}'.format(post_date), 'categories: {0}'.format(post_categories), '---', '')
 
-    print file_full_name
+    print(file_full_name)
 
     post_file = open(file_full_name, 'w+')
     post_file.write('\n'.join(file_data))
